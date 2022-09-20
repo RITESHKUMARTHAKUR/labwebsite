@@ -84,6 +84,10 @@ https://templatemo.com/tm-561-purple-buzz
   
 }
 
+.carousel-control-prev , .carousel-control-next{
+  font-size: 5em;
+}
+
 
 .wings .section-title h2{
   color:#b32244;    
@@ -157,6 +161,17 @@ https://templatemo.com/tm-561-purple-buzz
   opacity: 0;
   transition: 0.3s ease-in-out;
 }
+
+#more {
+  display: none;
+}
+
+#myBtn{
+  border: none;
+  background: transparent;
+  
+}
+
 .wings .container .card:hover .content{
   visibility: visible;
   opacity: 1;
