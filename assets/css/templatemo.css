@@ -57,6 +57,27 @@ p, a {font-weight: 400;}
   min-height: 60vh;
   width: 100%;
 }
+.home-index-banner-one {
+  background-image: url('../img/main.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  min-height: 80vh;
+  width: 100%;
+}
+.home-index-banner-two {
+  background-image: url('../img/main.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  min-height: 80vh;
+  width: 100%;
+}
+.home-index-banner-three {
+  background-image: url('../img/main.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  min-height: 80vh;
+  width: 100%;
+}
 #index_banner .carousel-item {
   min-height: 60vh;
 }

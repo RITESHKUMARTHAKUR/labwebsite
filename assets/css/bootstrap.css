@@ -7803,7 +7803,7 @@ fieldset:disabled .btn {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #4232c2;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -9086,6 +9086,10 @@ fieldset:disabled .btn {
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .mt-5 {
   margin-top: 6rem !important;
+}
+
+.margin-top-3{
+  margin-top: 3rem !important;
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
