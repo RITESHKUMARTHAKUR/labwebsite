@@ -58,24 +58,27 @@ p, a {font-weight: 400;}
   width: 100%;
 }
 .home-index-banner-one {
-  background-image: url('../img/main.jpg');
-  background-position: center center; background-size: cover;
+  background-image: url('../img/banner1.jpg');
+  background-size: cover;
+  margin-top: 1.5rem;
   height: 100%;
-  min-height: 80vh;
+  min-height: 100vh;
   width: 100%;
 }
 .home-index-banner-two {
-  background-image: url('../img/main.jpg');
-  background-position: center center; background-size: cover;
+  background-image: url('../img/banner2.jpg'); 
+  background-size: cover;
+  margin-top: 1.5rem;
   height: 100%;
-  min-height: 80vh;
+  min-height: 100vh;
   width: 100%;
 }
 .home-index-banner-three {
-  background-image: url('../img/main.jpg');
-  background-position: center center; background-size: cover;
+  background-image: url('../img/banner3.jpg'); 
+  background-size: cover;
   height: 100%;
-  min-height: 80vh;
+  margin-top: 1.5rem;
+  min-height: 100vh;
   width: 100%;
 }
 #index_banner .carousel-item {

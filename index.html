@@ -25,44 +25,94 @@
 
 <body>
     <!-- Header -->
-    <nav id="main_nav" class="navbar sticky-top navbar-expand-lg navbar-light bg-white shadow">
+    <nav id="main_nav" class="navbar sticky-top navbar-expand-lg d-flex flex-column navbar-light bg-white shadow display pb-0 pt-0">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand h1" href="index.html">
                 <img class="hb" src="./assets/img/bitdurg.png">
                 <img class="hb" src="./assets/img/png_20220715_082129_0000.png">
             </a>
+            <div class="heading-title">AICTE-IDEA Labs Network</div>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+        </div>
+        <div class="w-100 bottom-0" style="background-color:#36426b">
             <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
-                id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
+                id="navbar-toggler-success" style="height: 50px;">
+                <div class="flex-fill mx-xl-5">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
                             <a class="nav-link rounded-pill px-3" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link rounded-pill px-3" href="about.html">About</a>
+                        <span class="nav-link"> | </span>
+                        <li class="nav-item btn-group">
+                            <!-- <a class="nav-link rounded-pill px-3" href="about.html">About US</a> -->
+                                <button class="nav-dropdown align-self-center bg-transparent border-0 outline-none text-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                  About Us
+                                  <i class="bx bx-chevron-down"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                                  <li><a class="dropdown-item" href="about.html">About us</a></li>
+                                  <li><a class="dropdown-item" href="#">About us page 2</a></li>
+                                  <li><a class="dropdown-item" href="#">About us page 3</a></li>
+                                </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link rounded-pill px-3" href="work.html">Events</a>
+                        <span class="nav-link"> | </span>
+                        <li class="nav-item btn-group">
+                            <!-- <a class="nav-link rounded-pill px-3" href="work.html">Events</a> -->
+                                <button class=" nav-dropdown align-self-center bg-transparent border-0 outline-none text-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                  At a Glance
+                                  <i class="bx bx-chevron-down"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                                  <li><a class="dropdown-item" href="work.html">Glance</a></li>
+                                  <li><a class="dropdown-item" href="#">Item Event2</a></li>
+                                  <li><a class="dropdown-item" href="#">Item Event3</a></li>
+                                </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link rounded-pill px-3" href="pricing.html">Project</a>
+                        <span class="nav-link"> | </span>
+                        <li class="nav-item btn-group">
+                            <!-- <a class="nav-link rounded-pill px-3" href="work.html">Events</a> -->
+                                <button class=" nav-dropdown align-self-center bg-transparent border-0 outline-none text-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                  Event Calendar
+                                  <i class="bx bx-chevron-down"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                                  <li><a class="dropdown-item" href="work.html">Events</a></li>
+                                  <li><a class="dropdown-item" href="#">Item Event2</a></li>
+                                  <li><a class="dropdown-item" href="#">Item Event3</a></li>
+                                </ul>
                         </li>
+                        <span class="nav-link"> | </span>
+                        <li class="nav-item btn-group">
+                            <!-- <a class="nav-link rounded-pill px-3" href="pricing.html">Projects</a> -->
+                                <button class="nav-dropdown align-self-center bg-transparent border-0 outline-none text-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                                  Media
+                                  <i class="bx bx-chevron-down"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                                  <li><a class="dropdown-item" href="pricing.html">Media</a></li>
+                                  <li><a class="dropdown-item" href="#">Project page 2</a></li>
+                                  <li><a class="dropdown-item" href="#">Project page 3</a></li>
+                                </ul>
+                        </li>
+                        <span class="nav-link"> | </span>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill px-3" href="#">Scheme Document</a>
+                        </li>
+                        <span class="nav-link"> | </span>
                         <li class="nav-item">
                             <a class="nav-link rounded-pill px-3" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <div class="navbar align-self-center d-flex">
+                <!-- <div class="navbar align-self-center d-flex">
                     <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
                     <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
                     <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </nav>
@@ -213,31 +263,41 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <div class="important_box">
-                            <h3>200+</h3>
-                            <span>GURUS</span>
+                            <div class="bg-light-success institute-icon-box">
+                                <h3 class="text-success">74</h3>
+                            </div>
+                            <span>Institutes</span>
                         </div>
                     </div>
                     <div class="col col-xs-12">
                         <div class="important_box">
-                            <h3>20+</h3>
-                            <span>Members</span>
+                            <div class="bg-light-warning institute-icon-box">
+                                <h3 class="text-warning">5464</h3>
+                            </div>
+                            <span>Faculty</span>
                         </div>
                     </div>
                     <div class="col col-xs-12">
                         <div class="important_box">
-                            <h3>50+</h3>
-                            <span>Programs</span>
-                        </div>
-                    </div>
-                    <div class="col col-xs-12">
-                        <div class="important_box">
-                            <h3>200+</h3>
+                            <div class="bg-light-danger institute-icon-box">
+                                <h3 class="text-danger">57906</h3>
+                            </div>
                             <span>Students</span>
                         </div>
                     </div>
                     <div class="col col-xs-12">
                         <div class="important_box">
-                            <h3>10+</h3>
+                            <div class="bg-light-info institute-icon-box">
+                                <h3 class="text-info">582</h3>
+                            </div>
+                            <span>Events</span>
+                        </div>
+                    </div>
+                    <div class="col col-xs-12">
+                        <div class="important_box">
+                            <div class="institute-icon-box">
+                                <h3>10+</h3>
+                            </div>
                             <span>Internships</span>
                         </div>
                     </div>
