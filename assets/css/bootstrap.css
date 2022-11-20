@@ -2602,6 +2602,9 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .btn-group,.btn-group-vertical {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1199.98px) {
